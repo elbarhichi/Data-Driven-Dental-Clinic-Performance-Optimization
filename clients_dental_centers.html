@@ -1,0 +1,2142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb29fe92ddfd3c376d654dd994cda622 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb29fe92ddfd3c376d654dd994cda622" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb29fe92ddfd3c376d654dd994cda622 = L.map(
+                "map_bb29fe92ddfd3c376d654dd994cda622",
+                {
+                    center: [47.05123, 2.726777],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_edc985d0f9a4525a2c2a27b31e114713 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_edc985d0f9a4525a2c2a27b31e114713.addTo(map_bb29fe92ddfd3c376d654dd994cda622);
+        
+    
+            var marker_cluster_2b16114e83538c430b69964e33ec6f78 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_07c153b218dab987d83e2a0e4c84aedb = L.marker(
+                [48.804336, 2.420931],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_9c4571b043e2843718bdb50a1f7a3cab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d46374013513a765ec3bbf1cbeb36c41 = $(`<div id="html_d46374013513a765ec3bbf1cbeb36c41" style="width: 100.0%; height: 100.0%;">ID: 1<br>Revenue: 2.4 M EUR<br>Margin Rate: 18.0%</div>`)[0];
+                popup_9c4571b043e2843718bdb50a1f7a3cab.setContent(html_d46374013513a765ec3bbf1cbeb36c41);
+            
+        
+
+        marker_07c153b218dab987d83e2a0e4c84aedb.bindPopup(popup_9c4571b043e2843718bdb50a1f7a3cab)
+        ;
+
+        
+    
+    
+            marker_07c153b218dab987d83e2a0e4c84aedb.bindTooltip(
+                `<div>
+                     Center ID: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_974fa413339dbd175a450d0463d5477b = L.marker(
+                [49.895083, 2.298487],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_92fe50395ea4ef3254324916080e3079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ee88b36a7da6062e98cd294648a7bf = $(`<div id="html_a1ee88b36a7da6062e98cd294648a7bf" style="width: 100.0%; height: 100.0%;">ID: 2<br>Revenue: 2.6 M EUR<br>Margin Rate: 21.0%</div>`)[0];
+                popup_92fe50395ea4ef3254324916080e3079.setContent(html_a1ee88b36a7da6062e98cd294648a7bf);
+            
+        
+
+        marker_974fa413339dbd175a450d0463d5477b.bindPopup(popup_92fe50395ea4ef3254324916080e3079)
+        ;
+
+        
+    
+    
+            marker_974fa413339dbd175a450d0463d5477b.bindTooltip(
+                `<div>
+                     Center ID: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5691164e30d7240700c4d6fc3955b86 = L.marker(
+                [43.578549, 7.119384],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_6f0a7017dd5f659b7efc083f12115e0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f5aaa947b4e0de701d17daea70927e = $(`<div id="html_70f5aaa947b4e0de701d17daea70927e" style="width: 100.0%; height: 100.0%;">ID: 3<br>Revenue: 3.3 M EUR<br>Margin Rate: 21.0%</div>`)[0];
+                popup_6f0a7017dd5f659b7efc083f12115e0e.setContent(html_70f5aaa947b4e0de701d17daea70927e);
+            
+        
+
+        marker_a5691164e30d7240700c4d6fc3955b86.bindPopup(popup_6f0a7017dd5f659b7efc083f12115e0e)
+        ;
+
+        
+    
+    
+            marker_a5691164e30d7240700c4d6fc3955b86.bindTooltip(
+                `<div>
+                     Center ID: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_142b2e44b2251fda9baf4ba1e6e61f34 = L.marker(
+                [43.655764, 1.370467],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_f89ecb8542195d410cad1bb86940014b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693737635b0c857978c85c1e18445579 = $(`<div id="html_693737635b0c857978c85c1e18445579" style="width: 100.0%; height: 100.0%;">ID: 4<br>Revenue: 2.2 M EUR<br>Margin Rate: 9.0%</div>`)[0];
+                popup_f89ecb8542195d410cad1bb86940014b.setContent(html_693737635b0c857978c85c1e18445579);
+            
+        
+
+        marker_142b2e44b2251fda9baf4ba1e6e61f34.bindPopup(popup_f89ecb8542195d410cad1bb86940014b)
+        ;
+
+        
+    
+    
+            marker_142b2e44b2251fda9baf4ba1e6e61f34.bindTooltip(
+                `<div>
+                     Center ID: 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bb23f23cfca17771708932c40f51dde = L.marker(
+                [44.879637, -0.570372],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_25f5714012b95bebf7fdc3337aa81ccf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ba545cf4655bf99a08058caa712132e = $(`<div id="html_1ba545cf4655bf99a08058caa712132e" style="width: 100.0%; height: 100.0%;">ID: 5<br>Revenue: 2.9 M EUR<br>Margin Rate: 21.0%</div>`)[0];
+                popup_25f5714012b95bebf7fdc3337aa81ccf.setContent(html_1ba545cf4655bf99a08058caa712132e);
+            
+        
+
+        marker_5bb23f23cfca17771708932c40f51dde.bindPopup(popup_25f5714012b95bebf7fdc3337aa81ccf)
+        ;
+
+        
+    
+    
+            marker_5bb23f23cfca17771708932c40f51dde.bindTooltip(
+                `<div>
+                     Center ID: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ed69686857507bed752d6b22f8a16a0 = L.marker(
+                [44.84345, -0.577136],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_d074e681f7331f17d4a066e8e5038bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_996e2debac3cac7255a39e94cf77a36d = $(`<div id="html_996e2debac3cac7255a39e94cf77a36d" style="width: 100.0%; height: 100.0%;">ID: 6<br>Revenue: 0.1 M EUR<br>Margin Rate: 14.000000000000002%</div>`)[0];
+                popup_d074e681f7331f17d4a066e8e5038bc3.setContent(html_996e2debac3cac7255a39e94cf77a36d);
+            
+        
+
+        marker_5ed69686857507bed752d6b22f8a16a0.bindPopup(popup_d074e681f7331f17d4a066e8e5038bc3)
+        ;
+
+        
+    
+    
+            marker_5ed69686857507bed752d6b22f8a16a0.bindTooltip(
+                `<div>
+                     Center ID: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1f9e4cc08f2847de491a132d706e8ce = L.marker(
+                [48.834012, 2.244185],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_9c00d6957eaa633fcb20903e2368e89f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e5ff3a57504294f8f31a95d3b2e7fce = $(`<div id="html_3e5ff3a57504294f8f31a95d3b2e7fce" style="width: 100.0%; height: 100.0%;">ID: 7<br>Revenue: 3.4 M EUR<br>Margin Rate: 19.0%</div>`)[0];
+                popup_9c00d6957eaa633fcb20903e2368e89f.setContent(html_3e5ff3a57504294f8f31a95d3b2e7fce);
+            
+        
+
+        marker_d1f9e4cc08f2847de491a132d706e8ce.bindPopup(popup_9c00d6957eaa633fcb20903e2368e89f)
+        ;
+
+        
+    
+    
+            marker_d1f9e4cc08f2847de491a132d706e8ce.bindTooltip(
+                `<div>
+                     Center ID: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8afc10be3b0e5c195654ef7dc0f90a90 = L.marker(
+                [48.394544, -4.47954],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_0796ff2e320f4e105e31309663479163 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bec1959ca514047ae927537da60b383 = $(`<div id="html_5bec1959ca514047ae927537da60b383" style="width: 100.0%; height: 100.0%;">ID: 8<br>Revenue: 1.0 M EUR<br>Margin Rate: 16.0%</div>`)[0];
+                popup_0796ff2e320f4e105e31309663479163.setContent(html_5bec1959ca514047ae927537da60b383);
+            
+        
+
+        marker_8afc10be3b0e5c195654ef7dc0f90a90.bindPopup(popup_0796ff2e320f4e105e31309663479163)
+        ;
+
+        
+    
+    
+            marker_8afc10be3b0e5c195654ef7dc0f90a90.bindTooltip(
+                `<div>
+                     Center ID: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b50febfbd3811004e47bc8cfb941b0e8 = L.marker(
+                [42.691889, 2.93186],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_efdc39855e2b0b64a805010b705fca24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72624bcb694d9f4d75934551d55e0515 = $(`<div id="html_72624bcb694d9f4d75934551d55e0515" style="width: 100.0%; height: 100.0%;">ID: 9<br>Revenue: 4.0 M EUR<br>Margin Rate: 22.0%</div>`)[0];
+                popup_efdc39855e2b0b64a805010b705fca24.setContent(html_72624bcb694d9f4d75934551d55e0515);
+            
+        
+
+        marker_b50febfbd3811004e47bc8cfb941b0e8.bindPopup(popup_efdc39855e2b0b64a805010b705fca24)
+        ;
+
+        
+    
+    
+            marker_b50febfbd3811004e47bc8cfb941b0e8.bindTooltip(
+                `<div>
+                     Center ID: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cd8f0a6e0844370d6b690eb94391b3d = L.marker(
+                [49.183878, -0.362323],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_96f61a74b235f763e191e8be39162f56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eef7c76b149b5a0c470385eca0c9ba4 = $(`<div id="html_9eef7c76b149b5a0c470385eca0c9ba4" style="width: 100.0%; height: 100.0%;">ID: 10<br>Revenue: 2.2 M EUR<br>Margin Rate: 9.0%</div>`)[0];
+                popup_96f61a74b235f763e191e8be39162f56.setContent(html_9eef7c76b149b5a0c470385eca0c9ba4);
+            
+        
+
+        marker_5cd8f0a6e0844370d6b690eb94391b3d.bindPopup(popup_96f61a74b235f763e191e8be39162f56)
+        ;
+
+        
+    
+    
+            marker_5cd8f0a6e0844370d6b690eb94391b3d.bindTooltip(
+                `<div>
+                     Center ID: 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd5ba089027b7bab7b23e92db7349be8 = L.marker(
+                [43.553842, 7.020639],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_66c8d4935ceee9ee4b8f086183ccf3db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3956e4d880b28382caab30b8075f65 = $(`<div id="html_ad3956e4d880b28382caab30b8075f65" style="width: 100.0%; height: 100.0%;">ID: 11<br>Revenue: 3.5 M EUR<br>Margin Rate: 13.0%</div>`)[0];
+                popup_66c8d4935ceee9ee4b8f086183ccf3db.setContent(html_ad3956e4d880b28382caab30b8075f65);
+            
+        
+
+        marker_fd5ba089027b7bab7b23e92db7349be8.bindPopup(popup_66c8d4935ceee9ee4b8f086183ccf3db)
+        ;
+
+        
+    
+    
+            marker_fd5ba089027b7bab7b23e92db7349be8.bindTooltip(
+                `<div>
+                     Center ID: 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bf95f91439ab9a76229412b5be28586 = L.marker(
+                [43.630462, 3.904674],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_bea0d46534e378a2c3935bdb35422f20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c28554b42398d3eae0bb760be3886166 = $(`<div id="html_c28554b42398d3eae0bb760be3886166" style="width: 100.0%; height: 100.0%;">ID: 12<br>Revenue: 2.8 M EUR<br>Margin Rate: 8.0%</div>`)[0];
+                popup_bea0d46534e378a2c3935bdb35422f20.setContent(html_c28554b42398d3eae0bb760be3886166);
+            
+        
+
+        marker_9bf95f91439ab9a76229412b5be28586.bindPopup(popup_bea0d46534e378a2c3935bdb35422f20)
+        ;
+
+        
+    
+    
+            marker_9bf95f91439ab9a76229412b5be28586.bindTooltip(
+                `<div>
+                     Center ID: 12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78a0b3c9322746bf40023cdbfac98dfa = L.marker(
+                [46.776064, 4.840992],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_b7ed98700e8f0882bc71346b8b42aafb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdf9fc3b9b835a7d255259b8e6369397 = $(`<div id="html_fdf9fc3b9b835a7d255259b8e6369397" style="width: 100.0%; height: 100.0%;">ID: 13<br>Revenue: 4.6 M EUR<br>Margin Rate: 25.0%</div>`)[0];
+                popup_b7ed98700e8f0882bc71346b8b42aafb.setContent(html_fdf9fc3b9b835a7d255259b8e6369397);
+            
+        
+
+        marker_78a0b3c9322746bf40023cdbfac98dfa.bindPopup(popup_b7ed98700e8f0882bc71346b8b42aafb)
+        ;
+
+        
+    
+    
+            marker_78a0b3c9322746bf40023cdbfac98dfa.bindTooltip(
+                `<div>
+                     Center ID: 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2aa5ea96d98774f6b8aa8838eb14c0b1 = L.marker(
+                [48.443659, 1.484867],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_13c5bc125a099d56bca34c0ddcbd8cdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcd12cdc4bce09c9877e8b38c0b6ccc9 = $(`<div id="html_fcd12cdc4bce09c9877e8b38c0b6ccc9" style="width: 100.0%; height: 100.0%;">ID: 14<br>Revenue: 1.6 M EUR<br>Margin Rate: 11.0%</div>`)[0];
+                popup_13c5bc125a099d56bca34c0ddcbd8cdd.setContent(html_fcd12cdc4bce09c9877e8b38c0b6ccc9);
+            
+        
+
+        marker_2aa5ea96d98774f6b8aa8838eb14c0b1.bindPopup(popup_13c5bc125a099d56bca34c0ddcbd8cdd)
+        ;
+
+        
+    
+    
+            marker_2aa5ea96d98774f6b8aa8838eb14c0b1.bindTooltip(
+                `<div>
+                     Center ID: 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6690c96044c48aeb5f8f20a2cf9855c9 = L.marker(
+                [45.779301, 3.081492],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_94fa57765269a1dbcb22afb926b28402 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_063de46cca8df67cd8b07574ce0db50e = $(`<div id="html_063de46cca8df67cd8b07574ce0db50e" style="width: 100.0%; height: 100.0%;">ID: 15<br>Revenue: 0.0 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_94fa57765269a1dbcb22afb926b28402.setContent(html_063de46cca8df67cd8b07574ce0db50e);
+            
+        
+
+        marker_6690c96044c48aeb5f8f20a2cf9855c9.bindPopup(popup_94fa57765269a1dbcb22afb926b28402)
+        ;
+
+        
+    
+    
+            marker_6690c96044c48aeb5f8f20a2cf9855c9.bindTooltip(
+                `<div>
+                     Center ID: 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5c09eac674ae9ed94364782f8d211a0 = L.marker(
+                [43.693421, 7.25026],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_571f0d65c8decb4b039d5762ae7a828c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d11539d217552b98d26b0d377aaf0da = $(`<div id="html_5d11539d217552b98d26b0d377aaf0da" style="width: 100.0%; height: 100.0%;">ID: 16<br>Revenue: 2.1 M EUR<br>Margin Rate: 13.0%</div>`)[0];
+                popup_571f0d65c8decb4b039d5762ae7a828c.setContent(html_5d11539d217552b98d26b0d377aaf0da);
+            
+        
+
+        marker_b5c09eac674ae9ed94364782f8d211a0.bindPopup(popup_571f0d65c8decb4b039d5762ae7a828c)
+        ;
+
+        
+    
+    
+            marker_b5c09eac674ae9ed94364782f8d211a0.bindTooltip(
+                `<div>
+                     Center ID: 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1e3e34aae39e407ee9a7c4db2e1e921 = L.marker(
+                [47.323245, 5.037445],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_4ad00785efcdaa208de591eb997dab47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ff75a1e173da71c78055db96baf0c32 = $(`<div id="html_6ff75a1e173da71c78055db96baf0c32" style="width: 100.0%; height: 100.0%;">ID: 17<br>Revenue: 3.1 M EUR<br>Margin Rate: 23.0%</div>`)[0];
+                popup_4ad00785efcdaa208de591eb997dab47.setContent(html_6ff75a1e173da71c78055db96baf0c32);
+            
+        
+
+        marker_f1e3e34aae39e407ee9a7c4db2e1e921.bindPopup(popup_4ad00785efcdaa208de591eb997dab47)
+        ;
+
+        
+    
+    
+            marker_f1e3e34aae39e407ee9a7c4db2e1e921.bindTooltip(
+                `<div>
+                     Center ID: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9effbfe124ef6436f2dd5e7211371e6 = L.marker(
+                [48.736834, 1.365297],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_2008ff960a71ab1b4d23fef3a1dfb004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea9871d67c953839dd08859d28de4df1 = $(`<div id="html_ea9871d67c953839dd08859d28de4df1" style="width: 100.0%; height: 100.0%;">ID: 18<br>Revenue: nan M EUR<br>Margin Rate: nan%</div>`)[0];
+                popup_2008ff960a71ab1b4d23fef3a1dfb004.setContent(html_ea9871d67c953839dd08859d28de4df1);
+            
+        
+
+        marker_f9effbfe124ef6436f2dd5e7211371e6.bindPopup(popup_2008ff960a71ab1b4d23fef3a1dfb004)
+        ;
+
+        
+    
+    
+            marker_f9effbfe124ef6436f2dd5e7211371e6.bindTooltip(
+                `<div>
+                     Center ID: 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de9aaed8164cad254e68e5ec93959a98 = L.marker(
+                [48.985842, 2.256516],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_5123ae9887173eedee890e461b979030 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35ab33155f00b3ef50b630b0906947ba = $(`<div id="html_35ab33155f00b3ef50b630b0906947ba" style="width: 100.0%; height: 100.0%;">ID: 19<br>Revenue: 3.8 M EUR<br>Margin Rate: 34.0%</div>`)[0];
+                popup_5123ae9887173eedee890e461b979030.setContent(html_35ab33155f00b3ef50b630b0906947ba);
+            
+        
+
+        marker_de9aaed8164cad254e68e5ec93959a98.bindPopup(popup_5123ae9887173eedee890e461b979030)
+        ;
+
+        
+    
+    
+            marker_de9aaed8164cad254e68e5ec93959a98.bindTooltip(
+                `<div>
+                     Center ID: 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8456f7bfa612ee077c2b355ce0719c7 = L.marker(
+                [48.861717, 2.371646],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_2428223385e181491f51d893e498ab74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97225accea3e76d2f4ab1736d5cfecd5 = $(`<div id="html_97225accea3e76d2f4ab1736d5cfecd5" style="width: 100.0%; height: 100.0%;">ID: 20<br>Revenue: 2.6 M EUR<br>Margin Rate: 12.0%</div>`)[0];
+                popup_2428223385e181491f51d893e498ab74.setContent(html_97225accea3e76d2f4ab1736d5cfecd5);
+            
+        
+
+        marker_c8456f7bfa612ee077c2b355ce0719c7.bindPopup(popup_2428223385e181491f51d893e498ab74)
+        ;
+
+        
+    
+    
+            marker_c8456f7bfa612ee077c2b355ce0719c7.bindTooltip(
+                `<div>
+                     Center ID: 20
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_332da9a8010bfe7e221f645a6c378bba = L.marker(
+                [49.023062, 1.148888],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_befe955f9c59b8e2b74463c4f3f2e294 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb624dd56d3c900fe9b0b26952d6f85f = $(`<div id="html_fb624dd56d3c900fe9b0b26952d6f85f" style="width: 100.0%; height: 100.0%;">ID: 21<br>Revenue: nan M EUR<br>Margin Rate: nan%</div>`)[0];
+                popup_befe955f9c59b8e2b74463c4f3f2e294.setContent(html_fb624dd56d3c900fe9b0b26952d6f85f);
+            
+        
+
+        marker_332da9a8010bfe7e221f645a6c378bba.bindPopup(popup_befe955f9c59b8e2b74463c4f3f2e294)
+        ;
+
+        
+    
+    
+            marker_332da9a8010bfe7e221f645a6c378bba.bindTooltip(
+                `<div>
+                     Center ID: 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20c7d6f391cc3798eb4450281bcdd023 = L.marker(
+                [43.548987, 1.50505],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_efe6c2971266943b3c81ac5786938d7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba2b3b03dd2131ecf6a59cb923d1be87 = $(`<div id="html_ba2b3b03dd2131ecf6a59cb923d1be87" style="width: 100.0%; height: 100.0%;">ID: 22<br>Revenue: 1.7 M EUR<br>Margin Rate: 19.0%</div>`)[0];
+                popup_efe6c2971266943b3c81ac5786938d7a.setContent(html_ba2b3b03dd2131ecf6a59cb923d1be87);
+            
+        
+
+        marker_20c7d6f391cc3798eb4450281bcdd023.bindPopup(popup_efe6c2971266943b3c81ac5786938d7a)
+        ;
+
+        
+    
+    
+            marker_20c7d6f391cc3798eb4450281bcdd023.bindTooltip(
+                `<div>
+                     Center ID: 22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e91fd2802207d83a2550b3aaae41569 = L.marker(
+                [50.635571, 3.058779],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_0265e6588940b03fe7a640de5580e63a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8624b4e05a29fdb0c67e26ed99e6f96 = $(`<div id="html_c8624b4e05a29fdb0c67e26ed99e6f96" style="width: 100.0%; height: 100.0%;">ID: 23<br>Revenue: 1.8 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_0265e6588940b03fe7a640de5580e63a.setContent(html_c8624b4e05a29fdb0c67e26ed99e6f96);
+            
+        
+
+        marker_9e91fd2802207d83a2550b3aaae41569.bindPopup(popup_0265e6588940b03fe7a640de5580e63a)
+        ;
+
+        
+    
+    
+            marker_9e91fd2802207d83a2550b3aaae41569.bindTooltip(
+                `<div>
+                     Center ID: 23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f0691933a1c25367c19e577e770b5a8 = L.marker(
+                [48.92339, 2.545293],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_ca8ecd3f8d6b62b4a276ab69e16a6025 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de427b8b9eeaa66233f50915e9be52f8 = $(`<div id="html_de427b8b9eeaa66233f50915e9be52f8" style="width: 100.0%; height: 100.0%;">ID: 24<br>Revenue: 1.8 M EUR<br>Margin Rate: 17.0%</div>`)[0];
+                popup_ca8ecd3f8d6b62b4a276ab69e16a6025.setContent(html_de427b8b9eeaa66233f50915e9be52f8);
+            
+        
+
+        marker_0f0691933a1c25367c19e577e770b5a8.bindPopup(popup_ca8ecd3f8d6b62b4a276ab69e16a6025)
+        ;
+
+        
+    
+    
+            marker_0f0691933a1c25367c19e577e770b5a8.bindTooltip(
+                `<div>
+                     Center ID: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cc5c2da6fc329aaabe5b135dd780f91 = L.marker(
+                [45.745867, 4.863427],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_041beee6c1253310c1babdd406d775a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_411849002a749130f90810a34fcfc942 = $(`<div id="html_411849002a749130f90810a34fcfc942" style="width: 100.0%; height: 100.0%;">ID: 25<br>Revenue: 0.4 M EUR<br>Margin Rate: 22.0%</div>`)[0];
+                popup_041beee6c1253310c1babdd406d775a2.setContent(html_411849002a749130f90810a34fcfc942);
+            
+        
+
+        marker_0cc5c2da6fc329aaabe5b135dd780f91.bindPopup(popup_041beee6c1253310c1babdd406d775a2)
+        ;
+
+        
+    
+    
+            marker_0cc5c2da6fc329aaabe5b135dd780f91.bindTooltip(
+                `<div>
+                     Center ID: 25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ba8819e6768e18162b2e04e347249ea = L.marker(
+                [45.762351, 4.861621],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_fa3d5413ab3781035a713638b7710a91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_854f9b9abed64ca2042ac2a3297dc870 = $(`<div id="html_854f9b9abed64ca2042ac2a3297dc870" style="width: 100.0%; height: 100.0%;">ID: 26<br>Revenue: 3.2 M EUR<br>Margin Rate: 13.0%</div>`)[0];
+                popup_fa3d5413ab3781035a713638b7710a91.setContent(html_854f9b9abed64ca2042ac2a3297dc870);
+            
+        
+
+        marker_2ba8819e6768e18162b2e04e347249ea.bindPopup(popup_fa3d5413ab3781035a713638b7710a91)
+        ;
+
+        
+    
+    
+            marker_2ba8819e6768e18162b2e04e347249ea.bindTooltip(
+                `<div>
+                     Center ID: 26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efac31dcb4e114b60c1cfb748e5ef78c = L.marker(
+                [45.760591, 4.835746],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_24f13146dae0cbb966ae30517fcc3d36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70a5fab57f72066373b80cee81d8fb09 = $(`<div id="html_70a5fab57f72066373b80cee81d8fb09" style="width: 100.0%; height: 100.0%;">ID: 27<br>Revenue: 2.7 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_24f13146dae0cbb966ae30517fcc3d36.setContent(html_70a5fab57f72066373b80cee81d8fb09);
+            
+        
+
+        marker_efac31dcb4e114b60c1cfb748e5ef78c.bindPopup(popup_24f13146dae0cbb966ae30517fcc3d36)
+        ;
+
+        
+    
+    
+            marker_efac31dcb4e114b60c1cfb748e5ef78c.bindTooltip(
+                `<div>
+                     Center ID: 27
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce5e317fa3331c63a5a4d89b6b6f3a70 = L.marker(
+                [45.753315, 4.848349],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_3084345b0187892b1d371a28772b9562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14c14ef2881964765bba26993d885688 = $(`<div id="html_14c14ef2881964765bba26993d885688" style="width: 100.0%; height: 100.0%;">ID: 28<br>Revenue: 2.9 M EUR<br>Margin Rate: 16.0%</div>`)[0];
+                popup_3084345b0187892b1d371a28772b9562.setContent(html_14c14ef2881964765bba26993d885688);
+            
+        
+
+        marker_ce5e317fa3331c63a5a4d89b6b6f3a70.bindPopup(popup_3084345b0187892b1d371a28772b9562)
+        ;
+
+        
+    
+    
+            marker_ce5e317fa3331c63a5a4d89b6b6f3a70.bindTooltip(
+                `<div>
+                     Center ID: 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2920a8c2cd5342c7cf4b9c319df9232d = L.marker(
+                [43.303751, 5.368211],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_7bc854e568e34741d5c307c54efaea3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8b3d89953bb1a2e53c1b4232e3f8a10 = $(`<div id="html_f8b3d89953bb1a2e53c1b4232e3f8a10" style="width: 100.0%; height: 100.0%;">ID: 29<br>Revenue: 0.0 M EUR<br>Margin Rate: 1.0%</div>`)[0];
+                popup_7bc854e568e34741d5c307c54efaea3c.setContent(html_f8b3d89953bb1a2e53c1b4232e3f8a10);
+            
+        
+
+        marker_2920a8c2cd5342c7cf4b9c319df9232d.bindPopup(popup_7bc854e568e34741d5c307c54efaea3c)
+        ;
+
+        
+    
+    
+            marker_2920a8c2cd5342c7cf4b9c319df9232d.bindTooltip(
+                `<div>
+                     Center ID: 29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60fd521b760f1af9932b0756cc6d085d = L.marker(
+                [48.959236, 2.882169],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_ad7d3c43897a3b6356e05bbeae5bcc46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d000ccc4b0545cf1589badd5644db5b = $(`<div id="html_6d000ccc4b0545cf1589badd5644db5b" style="width: 100.0%; height: 100.0%;">ID: 30<br>Revenue: nan M EUR<br>Margin Rate: nan%</div>`)[0];
+                popup_ad7d3c43897a3b6356e05bbeae5bcc46.setContent(html_6d000ccc4b0545cf1589badd5644db5b);
+            
+        
+
+        marker_60fd521b760f1af9932b0756cc6d085d.bindPopup(popup_ad7d3c43897a3b6356e05bbeae5bcc46)
+        ;
+
+        
+    
+    
+            marker_60fd521b760f1af9932b0756cc6d085d.bindTooltip(
+                `<div>
+                     Center ID: 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5153a27f38f9259eb84149cd8e7859b = L.marker(
+                [43.773873, 7.500619],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_b3055ef8ae8eb6f18d3f0cf438b7a1d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87de51e31a6e0c56f69f2a5da1cd7f08 = $(`<div id="html_87de51e31a6e0c56f69f2a5da1cd7f08" style="width: 100.0%; height: 100.0%;">ID: 31<br>Revenue: 1.6 M EUR<br>Margin Rate: 9.0%</div>`)[0];
+                popup_b3055ef8ae8eb6f18d3f0cf438b7a1d4.setContent(html_87de51e31a6e0c56f69f2a5da1cd7f08);
+            
+        
+
+        marker_b5153a27f38f9259eb84149cd8e7859b.bindPopup(popup_b3055ef8ae8eb6f18d3f0cf438b7a1d4)
+        ;
+
+        
+    
+    
+            marker_b5153a27f38f9259eb84149cd8e7859b.bindTooltip(
+                `<div>
+                     Center ID: 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b42b4983898dedf19d2e7c61994520d = L.marker(
+                [49.114698, 6.173336],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_d8ff1989815fcd08da1e9d0586d5732f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2f07075a48e884aa1fffd9011a30e6e = $(`<div id="html_b2f07075a48e884aa1fffd9011a30e6e" style="width: 100.0%; height: 100.0%;">ID: 32<br>Revenue: 0.8 M EUR<br>Margin Rate: 12.0%</div>`)[0];
+                popup_d8ff1989815fcd08da1e9d0586d5732f.setContent(html_b2f07075a48e884aa1fffd9011a30e6e);
+            
+        
+
+        marker_6b42b4983898dedf19d2e7c61994520d.bindPopup(popup_d8ff1989815fcd08da1e9d0586d5732f)
+        ;
+
+        
+    
+    
+            marker_6b42b4983898dedf19d2e7c61994520d.bindTooltip(
+                `<div>
+                     Center ID: 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edb71430bef0f5c075ba619451a71d4d = L.marker(
+                [43.610801, 3.880536],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_c4e2dd388cb35a8032e37b8416fb2a96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f6f2a1163b34e9cd475832660a38c29 = $(`<div id="html_2f6f2a1163b34e9cd475832660a38c29" style="width: 100.0%; height: 100.0%;">ID: 33<br>Revenue: 1.5 M EUR<br>Margin Rate: 9.0%</div>`)[0];
+                popup_c4e2dd388cb35a8032e37b8416fb2a96.setContent(html_2f6f2a1163b34e9cd475832660a38c29);
+            
+        
+
+        marker_edb71430bef0f5c075ba619451a71d4d.bindPopup(popup_c4e2dd388cb35a8032e37b8416fb2a96)
+        ;
+
+        
+    
+    
+            marker_edb71430bef0f5c075ba619451a71d4d.bindTooltip(
+                `<div>
+                     Center ID: 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29f2e8aa9b81cf291673d5541d8f26df = L.marker(
+                [47.748382, 7.337619],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_65083816eb0a4a033656609d703649c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfb4c23f38c0a065494eaeaa43e45463 = $(`<div id="html_dfb4c23f38c0a065494eaeaa43e45463" style="width: 100.0%; height: 100.0%;">ID: 34<br>Revenue: 0.3 M EUR<br>Margin Rate: 16.0%</div>`)[0];
+                popup_65083816eb0a4a033656609d703649c9.setContent(html_dfb4c23f38c0a065494eaeaa43e45463);
+            
+        
+
+        marker_29f2e8aa9b81cf291673d5541d8f26df.bindPopup(popup_65083816eb0a4a033656609d703649c9)
+        ;
+
+        
+    
+    
+            marker_29f2e8aa9b81cf291673d5541d8f26df.bindTooltip(
+                `<div>
+                     Center ID: 34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2e325e06299eeef5754d52b5874a975 = L.marker(
+                [48.692024, 6.181425],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_102d21e04a0e25dea8983ad965e8b165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b60329727089705b030138723258538 = $(`<div id="html_9b60329727089705b030138723258538" style="width: 100.0%; height: 100.0%;">ID: 35<br>Revenue: nan M EUR<br>Margin Rate: nan%</div>`)[0];
+                popup_102d21e04a0e25dea8983ad965e8b165.setContent(html_9b60329727089705b030138723258538);
+            
+        
+
+        marker_f2e325e06299eeef5754d52b5874a975.bindPopup(popup_102d21e04a0e25dea8983ad965e8b165)
+        ;
+
+        
+    
+    
+            marker_f2e325e06299eeef5754d52b5874a975.bindTooltip(
+                `<div>
+                     Center ID: 35
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a2f8d4b3f43be5b29663296cd149586 = L.marker(
+                [43.701219, 7.280552],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_32845d42c75a5851938ffad18e56b692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89b44a39d68dbdf4a674f8a90f89d301 = $(`<div id="html_89b44a39d68dbdf4a674f8a90f89d301" style="width: 100.0%; height: 100.0%;">ID: 36<br>Revenue: 4.2 M EUR<br>Margin Rate: 28.000000000000004%</div>`)[0];
+                popup_32845d42c75a5851938ffad18e56b692.setContent(html_89b44a39d68dbdf4a674f8a90f89d301);
+            
+        
+
+        marker_7a2f8d4b3f43be5b29663296cd149586.bindPopup(popup_32845d42c75a5851938ffad18e56b692)
+        ;
+
+        
+    
+    
+            marker_7a2f8d4b3f43be5b29663296cd149586.bindTooltip(
+                `<div>
+                     Center ID: 36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc3e2e9bc409d43f01e0ee386e6557c4 = L.marker(
+                [43.703008, 7.259354],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_b4e9787184d09e0a630de1f66389c450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18fff6ee100957ee6acc6289440b5dc2 = $(`<div id="html_18fff6ee100957ee6acc6289440b5dc2" style="width: 100.0%; height: 100.0%;">ID: 37<br>Revenue: 4.0 M EUR<br>Margin Rate: 28.000000000000004%</div>`)[0];
+                popup_b4e9787184d09e0a630de1f66389c450.setContent(html_18fff6ee100957ee6acc6289440b5dc2);
+            
+        
+
+        marker_bc3e2e9bc409d43f01e0ee386e6557c4.bindPopup(popup_b4e9787184d09e0a630de1f66389c450)
+        ;
+
+        
+    
+    
+            marker_bc3e2e9bc409d43f01e0ee386e6557c4.bindTooltip(
+                `<div>
+                     Center ID: 37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42d43e78bb3dd1227952c9fc5bf449fe = L.marker(
+                [43.838278, 4.363345],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_a274408ade6256368ad19eac797e0e86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef2beb4cf2871aab9c99843b87e93861 = $(`<div id="html_ef2beb4cf2871aab9c99843b87e93861" style="width: 100.0%; height: 100.0%;">ID: 38<br>Revenue: nan M EUR<br>Margin Rate: nan%</div>`)[0];
+                popup_a274408ade6256368ad19eac797e0e86.setContent(html_ef2beb4cf2871aab9c99843b87e93861);
+            
+        
+
+        marker_42d43e78bb3dd1227952c9fc5bf449fe.bindPopup(popup_a274408ade6256368ad19eac797e0e86)
+        ;
+
+        
+    
+    
+            marker_42d43e78bb3dd1227952c9fc5bf449fe.bindTooltip(
+                `<div>
+                     Center ID: 38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cfe0871caa3764b41e454094bfded56 = L.marker(
+                [47.900192, 1.903934],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_a7172091e28b2c491d3f9feb4436b571 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80de72ad9eba8acb5f2e40d5abe5ba05 = $(`<div id="html_80de72ad9eba8acb5f2e40d5abe5ba05" style="width: 100.0%; height: 100.0%;">ID: 39<br>Revenue: 0.2 M EUR<br>Margin Rate: -4.0%</div>`)[0];
+                popup_a7172091e28b2c491d3f9feb4436b571.setContent(html_80de72ad9eba8acb5f2e40d5abe5ba05);
+            
+        
+
+        marker_4cfe0871caa3764b41e454094bfded56.bindPopup(popup_a7172091e28b2c491d3f9feb4436b571)
+        ;
+
+        
+    
+    
+            marker_4cfe0871caa3764b41e454094bfded56.bindTooltip(
+                `<div>
+                     Center ID: 39
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_465d6de7da08da77f73bd64a4562a698 = L.marker(
+                [48.87836, 2.354751],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_ea6902be8bb76f48c2e06897b7d8ba32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_138fa071e7b1b8f7579baf577a4138d2 = $(`<div id="html_138fa071e7b1b8f7579baf577a4138d2" style="width: 100.0%; height: 100.0%;">ID: 40<br>Revenue: 2.4 M EUR<br>Margin Rate: 11.0%</div>`)[0];
+                popup_ea6902be8bb76f48c2e06897b7d8ba32.setContent(html_138fa071e7b1b8f7579baf577a4138d2);
+            
+        
+
+        marker_465d6de7da08da77f73bd64a4562a698.bindPopup(popup_ea6902be8bb76f48c2e06897b7d8ba32)
+        ;
+
+        
+    
+    
+            marker_465d6de7da08da77f73bd64a4562a698.bindTooltip(
+                `<div>
+                     Center ID: 40
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9239e186effbca9832c6c8a9f029a658 = L.marker(
+                [48.857277, 2.381326],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_6e807fbdb40fc8b439fdcbbb61914e32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90ba358164b89e73c0f27e9561f0f132 = $(`<div id="html_90ba358164b89e73c0f27e9561f0f132" style="width: 100.0%; height: 100.0%;">ID: 41<br>Revenue: 2.5 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_6e807fbdb40fc8b439fdcbbb61914e32.setContent(html_90ba358164b89e73c0f27e9561f0f132);
+            
+        
+
+        marker_9239e186effbca9832c6c8a9f029a658.bindPopup(popup_6e807fbdb40fc8b439fdcbbb61914e32)
+        ;
+
+        
+    
+    
+            marker_9239e186effbca9832c6c8a9f029a658.bindTooltip(
+                `<div>
+                     Center ID: 41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_764e7873a39a11d31c2a2f554bc66d96 = L.marker(
+                [48.846288, 2.371953],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_494faebd0eaf19b2cf708af06151ce28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67971168eaba079b0b5baf11f35adb31 = $(`<div id="html_67971168eaba079b0b5baf11f35adb31" style="width: 100.0%; height: 100.0%;">ID: 42<br>Revenue: 0.5 M EUR<br>Margin Rate: 11.0%</div>`)[0];
+                popup_494faebd0eaf19b2cf708af06151ce28.setContent(html_67971168eaba079b0b5baf11f35adb31);
+            
+        
+
+        marker_764e7873a39a11d31c2a2f554bc66d96.bindPopup(popup_494faebd0eaf19b2cf708af06151ce28)
+        ;
+
+        
+    
+    
+            marker_764e7873a39a11d31c2a2f554bc66d96.bindTooltip(
+                `<div>
+                     Center ID: 42
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72e7637ab229f1b4ae99c14cdcda07be = L.marker(
+                [48.819878, 2.35894],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_75dabffef789c6381858aee4c5c8bb03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_581a71c9962cf357ac265cc6b8343b77 = $(`<div id="html_581a71c9962cf357ac265cc6b8343b77" style="width: 100.0%; height: 100.0%;">ID: 43<br>Revenue: 3.1 M EUR<br>Margin Rate: 17.0%</div>`)[0];
+                popup_75dabffef789c6381858aee4c5c8bb03.setContent(html_581a71c9962cf357ac265cc6b8343b77);
+            
+        
+
+        marker_72e7637ab229f1b4ae99c14cdcda07be.bindPopup(popup_75dabffef789c6381858aee4c5c8bb03)
+        ;
+
+        
+    
+    
+            marker_72e7637ab229f1b4ae99c14cdcda07be.bindTooltip(
+                `<div>
+                     Center ID: 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1722f806e015d4c1fc8f6abafbab4a8c = L.marker(
+                [48.824736, 2.3262],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_bb92b3329027ad7215d27b3dd5973faf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9281efd5d8a256de2a190b87a389e582 = $(`<div id="html_9281efd5d8a256de2a190b87a389e582" style="width: 100.0%; height: 100.0%;">ID: 44<br>Revenue: 3.2 M EUR<br>Margin Rate: 15.0%</div>`)[0];
+                popup_bb92b3329027ad7215d27b3dd5973faf.setContent(html_9281efd5d8a256de2a190b87a389e582);
+            
+        
+
+        marker_1722f806e015d4c1fc8f6abafbab4a8c.bindPopup(popup_bb92b3329027ad7215d27b3dd5973faf)
+        ;
+
+        
+    
+    
+            marker_1722f806e015d4c1fc8f6abafbab4a8c.bindTooltip(
+                `<div>
+                     Center ID: 44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e06e07d00f9e6c38aa1c13ebc5cc894 = L.marker(
+                [48.844182, 2.30765],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_910ef5b1a15d1b6f1413867f4e1b33be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4b89ae36cdb601e9cc87198f89fa2e5 = $(`<div id="html_f4b89ae36cdb601e9cc87198f89fa2e5" style="width: 100.0%; height: 100.0%;">ID: 45<br>Revenue: 1.6 M EUR<br>Margin Rate: 16.0%</div>`)[0];
+                popup_910ef5b1a15d1b6f1413867f4e1b33be.setContent(html_f4b89ae36cdb601e9cc87198f89fa2e5);
+            
+        
+
+        marker_6e06e07d00f9e6c38aa1c13ebc5cc894.bindPopup(popup_910ef5b1a15d1b6f1413867f4e1b33be)
+        ;
+
+        
+    
+    
+            marker_6e06e07d00f9e6c38aa1c13ebc5cc894.bindTooltip(
+                `<div>
+                     Center ID: 45
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d938096dcb9137ff55280ab6a1c2989 = L.marker(
+                [48.858096, 2.282654],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_1414c086a836d0a99893cbd65acd05ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e679d4fa28c38f2b519467322c873ddc = $(`<div id="html_e679d4fa28c38f2b519467322c873ddc" style="width: 100.0%; height: 100.0%;">ID: 46<br>Revenue: 1.7 M EUR<br>Margin Rate: 11.0%</div>`)[0];
+                popup_1414c086a836d0a99893cbd65acd05ef.setContent(html_e679d4fa28c38f2b519467322c873ddc);
+            
+        
+
+        marker_8d938096dcb9137ff55280ab6a1c2989.bindPopup(popup_1414c086a836d0a99893cbd65acd05ef)
+        ;
+
+        
+    
+    
+            marker_8d938096dcb9137ff55280ab6a1c2989.bindTooltip(
+                `<div>
+                     Center ID: 46
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e46433fee6725a5196d7c92ee093806b = L.marker(
+                [48.883613, 2.293074],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_b3a39aa5ca02f1528d3d090a19a1e5eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2114b6f0fd1b12617f726b2af92fceb9 = $(`<div id="html_2114b6f0fd1b12617f726b2af92fceb9" style="width: 100.0%; height: 100.0%;">ID: 47<br>Revenue: 2.1 M EUR<br>Margin Rate: 11.0%</div>`)[0];
+                popup_b3a39aa5ca02f1528d3d090a19a1e5eb.setContent(html_2114b6f0fd1b12617f726b2af92fceb9);
+            
+        
+
+        marker_e46433fee6725a5196d7c92ee093806b.bindPopup(popup_b3a39aa5ca02f1528d3d090a19a1e5eb)
+        ;
+
+        
+    
+    
+            marker_e46433fee6725a5196d7c92ee093806b.bindTooltip(
+                `<div>
+                     Center ID: 47
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f084cf4284b1a23accdc5101b57a5611 = L.marker(
+                [48.888964, 2.349373],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_fcaed4c7969b942ca1669023a676b30b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f90f61e3d888e7f4abc084046cbc4245 = $(`<div id="html_f90f61e3d888e7f4abc084046cbc4245" style="width: 100.0%; height: 100.0%;">ID: 48<br>Revenue: 4.0 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_fcaed4c7969b942ca1669023a676b30b.setContent(html_f90f61e3d888e7f4abc084046cbc4245);
+            
+        
+
+        marker_f084cf4284b1a23accdc5101b57a5611.bindPopup(popup_fcaed4c7969b942ca1669023a676b30b)
+        ;
+
+        
+    
+    
+            marker_f084cf4284b1a23accdc5101b57a5611.bindTooltip(
+                `<div>
+                     Center ID: 48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc95837ee7192d28e97eccc383e9ba65 = L.marker(
+                [48.890494, 2.360228],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_0af8c4fa377c6729af9014952a9f6e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_364c69cb36fa2b2a5a91eef914a37878 = $(`<div id="html_364c69cb36fa2b2a5a91eef914a37878" style="width: 100.0%; height: 100.0%;">ID: 49<br>Revenue: 1.5 M EUR<br>Margin Rate: 6.0%</div>`)[0];
+                popup_0af8c4fa377c6729af9014952a9f6e1f.setContent(html_364c69cb36fa2b2a5a91eef914a37878);
+            
+        
+
+        marker_dc95837ee7192d28e97eccc383e9ba65.bindPopup(popup_0af8c4fa377c6729af9014952a9f6e1f)
+        ;
+
+        
+    
+    
+            marker_dc95837ee7192d28e97eccc383e9ba65.bindTooltip(
+                `<div>
+                     Center ID: 49
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62fdf54240a40fb6d65ec17e8a548e2e = L.marker(
+                [48.866654, 2.351302],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_9c9be03412f3fa468a23380a8e38e31b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af39a6ca5b48637bee1db7943aeda8a4 = $(`<div id="html_af39a6ca5b48637bee1db7943aeda8a4" style="width: 100.0%; height: 100.0%;">ID: 50<br>Revenue: 2.0 M EUR<br>Margin Rate: 3.0%</div>`)[0];
+                popup_9c9be03412f3fa468a23380a8e38e31b.setContent(html_af39a6ca5b48637bee1db7943aeda8a4);
+            
+        
+
+        marker_62fdf54240a40fb6d65ec17e8a548e2e.bindPopup(popup_9c9be03412f3fa468a23380a8e38e31b)
+        ;
+
+        
+    
+    
+            marker_62fdf54240a40fb6d65ec17e8a548e2e.bindTooltip(
+                `<div>
+                     Center ID: 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ead4cac26e7b3a50a2794d49ac69809 = L.marker(
+                [48.866443, 2.40298],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_aa466badad97b0c90d2373cac1374caa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37b8a22744ec1445b3148fed1606672 = $(`<div id="html_b37b8a22744ec1445b3148fed1606672" style="width: 100.0%; height: 100.0%;">ID: 51<br>Revenue: 2.8 M EUR<br>Margin Rate: 18.0%</div>`)[0];
+                popup_aa466badad97b0c90d2373cac1374caa.setContent(html_b37b8a22744ec1445b3148fed1606672);
+            
+        
+
+        marker_1ead4cac26e7b3a50a2794d49ac69809.bindPopup(popup_aa466badad97b0c90d2373cac1374caa)
+        ;
+
+        
+    
+    
+            marker_1ead4cac26e7b3a50a2794d49ac69809.bindTooltip(
+                `<div>
+                     Center ID: 51
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7ff4175a89d5667691a5197d789ffcd = L.marker(
+                [48.85635, 2.403206],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_7d5fc1e66efef18df45da685b88f7712 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c6f02422445ca8cede2c8377effe0f = $(`<div id="html_45c6f02422445ca8cede2c8377effe0f" style="width: 100.0%; height: 100.0%;">ID: 52<br>Revenue: 2.9 M EUR<br>Margin Rate: 19.0%</div>`)[0];
+                popup_7d5fc1e66efef18df45da685b88f7712.setContent(html_45c6f02422445ca8cede2c8377effe0f);
+            
+        
+
+        marker_f7ff4175a89d5667691a5197d789ffcd.bindPopup(popup_7d5fc1e66efef18df45da685b88f7712)
+        ;
+
+        
+    
+    
+            marker_f7ff4175a89d5667691a5197d789ffcd.bindTooltip(
+                `<div>
+                     Center ID: 52
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a19883f5451c6dc212bdabc083d5f2 = L.marker(
+                [48.866234, 2.403136],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_a2f94c474a62cf007e06b8021f5ce5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2348e40654f4263f385c2617014dc4d = $(`<div id="html_c2348e40654f4263f385c2617014dc4d" style="width: 100.0%; height: 100.0%;">ID: 53<br>Revenue: 1.6 M EUR<br>Margin Rate: 21.0%</div>`)[0];
+                popup_a2f94c474a62cf007e06b8021f5ce5c0.setContent(html_c2348e40654f4263f385c2617014dc4d);
+            
+        
+
+        marker_e2a19883f5451c6dc212bdabc083d5f2.bindPopup(popup_a2f94c474a62cf007e06b8021f5ce5c0)
+        ;
+
+        
+    
+    
+            marker_e2a19883f5451c6dc212bdabc083d5f2.bindTooltip(
+                `<div>
+                     Center ID: 53
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ed0d181ef2e244611b1785f0b60c691 = L.marker(
+                [48.859232, 2.352235],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_a421cd057e361b6ab448628416922a39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f0cc8af38cbc88cd2743c15e24062f7 = $(`<div id="html_2f0cc8af38cbc88cd2743c15e24062f7" style="width: 100.0%; height: 100.0%;">ID: 54<br>Revenue: 1.9 M EUR<br>Margin Rate: 3.0%</div>`)[0];
+                popup_a421cd057e361b6ab448628416922a39.setContent(html_2f0cc8af38cbc88cd2743c15e24062f7);
+            
+        
+
+        marker_9ed0d181ef2e244611b1785f0b60c691.bindPopup(popup_a421cd057e361b6ab448628416922a39)
+        ;
+
+        
+    
+    
+            marker_9ed0d181ef2e244611b1785f0b60c691.bindTooltip(
+                `<div>
+                     Center ID: 54
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18c315aa8dab90126fad445514459760 = L.marker(
+                [48.857179, 2.430776],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_ea97c53dfc2d051728e538bfb64b9eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e17b42f0a401a2db7ed825dfd25f18eb = $(`<div id="html_e17b42f0a401a2db7ed825dfd25f18eb" style="width: 100.0%; height: 100.0%;">ID: 55<br>Revenue: 2.5 M EUR<br>Margin Rate: 27.0%</div>`)[0];
+                popup_ea97c53dfc2d051728e538bfb64b9eaa.setContent(html_e17b42f0a401a2db7ed825dfd25f18eb);
+            
+        
+
+        marker_18c315aa8dab90126fad445514459760.bindPopup(popup_ea97c53dfc2d051728e538bfb64b9eaa)
+        ;
+
+        
+    
+    
+            marker_18c315aa8dab90126fad445514459760.bindTooltip(
+                `<div>
+                     Center ID: 55
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84623c500bdb1c3ad057092e8df99b3d = L.marker(
+                [49.25613, 4.028529],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_32debcc78da68e2901c1bfa8dbac9785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e58a9317a4f82ca7962e400026cbc6c = $(`<div id="html_7e58a9317a4f82ca7962e400026cbc6c" style="width: 100.0%; height: 100.0%;">ID: 56<br>Revenue: 1.0 M EUR<br>Margin Rate: -1.0%</div>`)[0];
+                popup_32debcc78da68e2901c1bfa8dbac9785.setContent(html_7e58a9317a4f82ca7962e400026cbc6c);
+            
+        
+
+        marker_84623c500bdb1c3ad057092e8df99b3d.bindPopup(popup_32debcc78da68e2901c1bfa8dbac9785)
+        ;
+
+        
+    
+    
+            marker_84623c500bdb1c3ad057092e8df99b3d.bindTooltip(
+                `<div>
+                     Center ID: 56
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69324db835f21ee9af1d6ce299f90fdc = L.marker(
+                [48.105363, -1.677937],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_9ab93ab32bb570543c65d1a71a482037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c9ff30c9204a4e6b9a306e5c4491656 = $(`<div id="html_7c9ff30c9204a4e6b9a306e5c4491656" style="width: 100.0%; height: 100.0%;">ID: 57<br>Revenue: 0.7 M EUR<br>Margin Rate: 15.0%</div>`)[0];
+                popup_9ab93ab32bb570543c65d1a71a482037.setContent(html_7c9ff30c9204a4e6b9a306e5c4491656);
+            
+        
+
+        marker_69324db835f21ee9af1d6ce299f90fdc.bindPopup(popup_9ab93ab32bb570543c65d1a71a482037)
+        ;
+
+        
+    
+    
+            marker_69324db835f21ee9af1d6ce299f90fdc.bindTooltip(
+                `<div>
+                     Center ID: 57
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee49b29beaa5462288102ce0f63da4d9 = L.marker(
+                [50.692226, 3.176593],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_36d8dcb96568ef7840bdca63310d8115 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edba58b4a1ee0869d9c3dda52ffb10b5 = $(`<div id="html_edba58b4a1ee0869d9c3dda52ffb10b5" style="width: 100.0%; height: 100.0%;">ID: 58<br>Revenue: 1.6 M EUR<br>Margin Rate: 5.0%</div>`)[0];
+                popup_36d8dcb96568ef7840bdca63310d8115.setContent(html_edba58b4a1ee0869d9c3dda52ffb10b5);
+            
+        
+
+        marker_ee49b29beaa5462288102ce0f63da4d9.bindPopup(popup_36d8dcb96568ef7840bdca63310d8115)
+        ;
+
+        
+    
+    
+            marker_ee49b29beaa5462288102ce0f63da4d9.bindTooltip(
+                `<div>
+                     Center ID: 58
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c30575ca699b47d3e24ca815c6f809a5 = L.marker(
+                [49.440457, 1.092649],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_9afde25ee39f556cece2153d3a36aef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18a469607d02da0ab904307932d3c603 = $(`<div id="html_18a469607d02da0ab904307932d3c603" style="width: 100.0%; height: 100.0%;">ID: 59<br>Revenue: 1.0 M EUR<br>Margin Rate: -1.0%</div>`)[0];
+                popup_9afde25ee39f556cece2153d3a36aef4.setContent(html_18a469607d02da0ab904307932d3c603);
+            
+        
+
+        marker_c30575ca699b47d3e24ca815c6f809a5.bindPopup(popup_9afde25ee39f556cece2153d3a36aef4)
+        ;
+
+        
+    
+    
+            marker_c30575ca699b47d3e24ca815c6f809a5.bindTooltip(
+                `<div>
+                     Center ID: 59
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_335bdc67b4935205c355422ca573aa0c = L.marker(
+                [49.845012, 3.290347],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_09c3421a623af6161347abe82f4913d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_752cb1c15350c4407fde719dfbaf0ecb = $(`<div id="html_752cb1c15350c4407fde719dfbaf0ecb" style="width: 100.0%; height: 100.0%;">ID: 60<br>Revenue: 0.0 M EUR<br>Margin Rate: -5.0%</div>`)[0];
+                popup_09c3421a623af6161347abe82f4913d2.setContent(html_752cb1c15350c4407fde719dfbaf0ecb);
+            
+        
+
+        marker_335bdc67b4935205c355422ca573aa0c.bindPopup(popup_09c3421a623af6161347abe82f4913d2)
+        ;
+
+        
+    
+    
+            marker_335bdc67b4935205c355422ca573aa0c.bindTooltip(
+                `<div>
+                     Center ID: 60
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_616239772ca39f7169b40eeed528aca8 = L.marker(
+                [47.279708, -2.212515],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_d40ad52b5f6aee76d15c7c70c73ab447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e53d476ef9e85a41a825b43993b6ee21 = $(`<div id="html_e53d476ef9e85a41a825b43993b6ee21" style="width: 100.0%; height: 100.0%;">ID: 61<br>Revenue: 0.2 M EUR<br>Margin Rate: 16.0%</div>`)[0];
+                popup_d40ad52b5f6aee76d15c7c70c73ab447.setContent(html_e53d476ef9e85a41a825b43993b6ee21);
+            
+        
+
+        marker_616239772ca39f7169b40eeed528aca8.bindPopup(popup_d40ad52b5f6aee76d15c7c70c73ab447)
+        ;
+
+        
+    
+    
+            marker_616239772ca39f7169b40eeed528aca8.bindTooltip(
+                `<div>
+                     Center ID: 61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dc798297f1f500af65ccada9ad03040 = L.marker(
+                [43.421179, 6.769466],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_7281726abb2585ef47caaf78c3acdda4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9a012ccf7aa6af404ad5127612db469 = $(`<div id="html_f9a012ccf7aa6af404ad5127612db469" style="width: 100.0%; height: 100.0%;">ID: 62<br>Revenue: 4.4 M EUR<br>Margin Rate: 28.000000000000004%</div>`)[0];
+                popup_7281726abb2585ef47caaf78c3acdda4.setContent(html_f9a012ccf7aa6af404ad5127612db469);
+            
+        
+
+        marker_1dc798297f1f500af65ccada9ad03040.bindPopup(popup_7281726abb2585ef47caaf78c3acdda4)
+        ;
+
+        
+    
+    
+            marker_1dc798297f1f500af65ccada9ad03040.bindTooltip(
+                `<div>
+                     Center ID: 62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6c2382ad4c089c11cc9a5583dba48f6 = L.marker(
+                [48.584627, 7.750131],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_1032766d14eed06828d69437f79d1b13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33d841a60f03cf50901ee01e1c61c0c2 = $(`<div id="html_33d841a60f03cf50901ee01e1c61c0c2" style="width: 100.0%; height: 100.0%;">ID: 63<br>Revenue: 2.2 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_1032766d14eed06828d69437f79d1b13.setContent(html_33d841a60f03cf50901ee01e1c61c0c2);
+            
+        
+
+        marker_a6c2382ad4c089c11cc9a5583dba48f6.bindPopup(popup_1032766d14eed06828d69437f79d1b13)
+        ;
+
+        
+    
+    
+            marker_a6c2382ad4c089c11cc9a5583dba48f6.bindTooltip(
+                `<div>
+                     Center ID: 63
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f515c77b0319b9652c8ce118e7791d3e = L.marker(
+                [48.583894, 7.74203],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_b9de597368c52dd39930eeec2fc8ccdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3605624f1567d38e018f60e2ee01e691 = $(`<div id="html_3605624f1567d38e018f60e2ee01e691" style="width: 100.0%; height: 100.0%;">ID: 64<br>Revenue: 2.2 M EUR<br>Margin Rate: 10.0%</div>`)[0];
+                popup_b9de597368c52dd39930eeec2fc8ccdc.setContent(html_3605624f1567d38e018f60e2ee01e691);
+            
+        
+
+        marker_f515c77b0319b9652c8ce118e7791d3e.bindPopup(popup_b9de597368c52dd39930eeec2fc8ccdc)
+        ;
+
+        
+    
+    
+            marker_f515c77b0319b9652c8ce118e7791d3e.bindTooltip(
+                `<div>
+                     Center ID: 64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee95884f1813701676f44ad5c0f2e55f = L.marker(
+                [43.124467, 5.935231],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_87d14a97e64d4826310604cf4249899d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d98dedc6689ed1fc2adf9cd8c83dac3 = $(`<div id="html_9d98dedc6689ed1fc2adf9cd8c83dac3" style="width: 100.0%; height: 100.0%;">ID: 65<br>Revenue: 6.0 M EUR<br>Margin Rate: 28.000000000000004%</div>`)[0];
+                popup_87d14a97e64d4826310604cf4249899d.setContent(html_9d98dedc6689ed1fc2adf9cd8c83dac3);
+            
+        
+
+        marker_ee95884f1813701676f44ad5c0f2e55f.bindPopup(popup_87d14a97e64d4826310604cf4249899d)
+        ;
+
+        
+    
+    
+            marker_ee95884f1813701676f44ad5c0f2e55f.bindTooltip(
+                `<div>
+                     Center ID: 65
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8d3368d62444898dbcad2ebaadc346a = L.marker(
+                [43.611204, 1.438275],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_d0614b24e173af665a609e2ef5add783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8dbdb708a5bf4d3ae6be67e68cc69f1 = $(`<div id="html_c8dbdb708a5bf4d3ae6be67e68cc69f1" style="width: 100.0%; height: 100.0%;">ID: 66<br>Revenue: 0.5 M EUR<br>Margin Rate: 20.0%</div>`)[0];
+                popup_d0614b24e173af665a609e2ef5add783.setContent(html_c8dbdb708a5bf4d3ae6be67e68cc69f1);
+            
+        
+
+        marker_a8d3368d62444898dbcad2ebaadc346a.bindPopup(popup_d0614b24e173af665a609e2ef5add783)
+        ;
+
+        
+    
+    
+            marker_a8d3368d62444898dbcad2ebaadc346a.bindTooltip(
+                `<div>
+                     Center ID: 66
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d08d70f0ff4bc9e17430cae8f719280f = L.marker(
+                [50.725329, 3.156516],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_989afc65855ac6680c5bb4ff0178cc79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a007648d60f5155e21b01e56e432455f = $(`<div id="html_a007648d60f5155e21b01e56e432455f" style="width: 100.0%; height: 100.0%;">ID: 67<br>Revenue: 3.0 M EUR<br>Margin Rate: 20.0%</div>`)[0];
+                popup_989afc65855ac6680c5bb4ff0178cc79.setContent(html_a007648d60f5155e21b01e56e432455f);
+            
+        
+
+        marker_d08d70f0ff4bc9e17430cae8f719280f.bindPopup(popup_989afc65855ac6680c5bb4ff0178cc79)
+        ;
+
+        
+    
+    
+            marker_d08d70f0ff4bc9e17430cae8f719280f.bindTooltip(
+                `<div>
+                     Center ID: 67
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eab49ea8d97ca004ef4f5b2d90a8171b = L.marker(
+                [47.390305, 0.69211],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_485c2615636f22492379251d5cd84c52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7a9e7cd7829d77262a092226648f0d5 = $(`<div id="html_a7a9e7cd7829d77262a092226648f0d5" style="width: 100.0%; height: 100.0%;">ID: 68<br>Revenue: 1.3 M EUR<br>Margin Rate: 14.000000000000002%</div>`)[0];
+                popup_485c2615636f22492379251d5cd84c52.setContent(html_a7a9e7cd7829d77262a092226648f0d5);
+            
+        
+
+        marker_eab49ea8d97ca004ef4f5b2d90a8171b.bindPopup(popup_485c2615636f22492379251d5cd84c52)
+        ;
+
+        
+    
+    
+            marker_eab49ea8d97ca004ef4f5b2d90a8171b.bindTooltip(
+                `<div>
+                     Center ID: 68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4f73824308c334bc6e340d7c570252f = L.marker(
+                [50.360704, 3.525183],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_ef85e02209675f2d6507a820d8bc7f54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35bece952cd61698f6eb66cb34105d6b = $(`<div id="html_35bece952cd61698f6eb66cb34105d6b" style="width: 100.0%; height: 100.0%;">ID: 69<br>Revenue: 0.0 M EUR<br>Margin Rate: 20.0%</div>`)[0];
+                popup_ef85e02209675f2d6507a820d8bc7f54.setContent(html_35bece952cd61698f6eb66cb34105d6b);
+            
+        
+
+        marker_f4f73824308c334bc6e340d7c570252f.bindPopup(popup_ef85e02209675f2d6507a820d8bc7f54)
+        ;
+
+        
+    
+    
+            marker_f4f73824308c334bc6e340d7c570252f.bindTooltip(
+                `<div>
+                     Center ID: 69
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc58bfd29b8e674dc45cf1e78a061ecf = L.marker(
+                [50.616725, 3.133466],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_515d2296b9593f6c4ab8f50efb1bf950 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa1d89253393e236b613079dbbe2d6b7 = $(`<div id="html_aa1d89253393e236b613079dbbe2d6b7" style="width: 100.0%; height: 100.0%;">ID: 70<br>Revenue: 15.0 M EUR<br>Margin Rate: 19.0%</div>`)[0];
+                popup_515d2296b9593f6c4ab8f50efb1bf950.setContent(html_aa1d89253393e236b613079dbbe2d6b7);
+            
+        
+
+        marker_bc58bfd29b8e674dc45cf1e78a061ecf.bindPopup(popup_515d2296b9593f6c4ab8f50efb1bf950)
+        ;
+
+        
+    
+    
+            marker_bc58bfd29b8e674dc45cf1e78a061ecf.bindTooltip(
+                `<div>
+                     Center ID: 70
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_785c8d6e93ea28d7a69f0894d7e6d026 = L.marker(
+                [45.770666, 4.873808],
+                {}
+            ).addTo(marker_cluster_2b16114e83538c430b69964e33ec6f78);
+        
+    
+        var popup_f11f8597ca2430e8431f7f216051b324 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_724d34cec47b7a144e57de802187ab36 = $(`<div id="html_724d34cec47b7a144e57de802187ab36" style="width: 100.0%; height: 100.0%;">ID: 71<br>Revenue: 1.5 M EUR<br>Margin Rate: 16.0%</div>`)[0];
+                popup_f11f8597ca2430e8431f7f216051b324.setContent(html_724d34cec47b7a144e57de802187ab36);
+            
+        
+
+        marker_785c8d6e93ea28d7a69f0894d7e6d026.bindPopup(popup_f11f8597ca2430e8431f7f216051b324)
+        ;
+
+        
+    
+    
+            marker_785c8d6e93ea28d7a69f0894d7e6d026.bindTooltip(
+                `<div>
+                     Center ID: 71
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_2b16114e83538c430b69964e33ec6f78.addTo(map_bb29fe92ddfd3c376d654dd994cda622);
+        
+</script>
+</html>
