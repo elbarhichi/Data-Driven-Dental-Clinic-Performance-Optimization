@@ -76,7 +76,7 @@ To run this project locally:
    ```
 3. Run the Jupyter Notebook:
    ```bash
-   jupyter notebook 2023_DS_exercise.ipynb
+   jupyter notebook DS_exercise.ipynb
    ```
 4. Open and interact with the HTML maps for visual analysis.
 
